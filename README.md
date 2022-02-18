@@ -1,4 +1,4 @@
-# Expenses Tracker V-0.1.1
+## Expenses Tracker V-0.1.1
 
 Track your expenses and control your finances! 
 
