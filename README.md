@@ -2,6 +2,8 @@
 
 Track your expenses and control your finances! 
 
+Check me out ---> https://edalscript.github.io/expenses-tracker/
+
 ### Specifications: 
 - Add or remove expenses freely. 
 - The currency used in the project is Russian Ruble and it cannot be modified at the moment by the user.
@@ -10,8 +12,11 @@ Track your expenses and control your finances!
 ### Stack: JavaScript, CSS3 and HTML5. 
 
 ### Version Backlog
+
 0.1.2: Gradients and margin fix
+
 0.1.1: Currency set
+
 0.1.0: Pilot
 
-Check me out ---> https://edalscript.github.io/expenses-tracker/
+
