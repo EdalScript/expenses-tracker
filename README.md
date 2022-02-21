@@ -13,7 +13,7 @@ Check me out ---> https://edalscript.github.io/expenses-tracker/
 - 100% vanilla JavaScript and CSS3. 
 
 ### What's next?: </br>
-- Tips about how to save your money on a side
+- Tips on how to save your money
 - A monthly stat of your income/expense
 - User will be able to change the currency 
 
