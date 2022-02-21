@@ -18,9 +18,6 @@ Check me out ---> https://edalscript.github.io/expenses-tracker/
 - A monthly stat of your income/expense
 - User will be able to change the currency 
 
-### Fun fact: Why am I using Russian ruble in this project? </br>
-<p>My partner (Russian) has been looking forward to ways she can get the most out of her income, so I thought: "maybe I could create an app that keeps a record of how much she spends in a month!".</p>
-
 ### Version Backlog
 
 0.2.0: </br> 
@@ -30,3 +27,5 @@ Check me out ---> https://edalscript.github.io/expenses-tracker/
 0.1.1: Currency set</br>
 0.1.0: Hello world!</br>
 
+### Fun fact: Why am I using Russian ruble in this project? </br>
+<p>My partner (Russian) has been looking forward to ways she can get the most out of her income, so I thought: "maybe I could help her by creating an app that keeps a record of how much she spends in a month!".</p>
