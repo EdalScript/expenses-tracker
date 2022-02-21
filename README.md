@@ -1,4 +1,4 @@
-## Expenses Tracker V-0.1.2
+## Expenses Tracker 0.2.0
 
 Track your expenses and control your finances! 
 
@@ -13,10 +13,11 @@ Check me out ---> https://edalscript.github.io/expenses-tracker/
 
 ### Version Backlog
 
-0.1.2: Gradients and margin fix
-
-0.1.1: Currency set
-
-0.1.0: Pilot
+0.2.0: </br> 
+-Income and Expense are now in the same container with "Your balance" </br>
+-Changed all containers, boxes and cards to share the same border radius </br>
+0.1.2: Gradients and margin fix </br>
+0.1.1: Currency set</br>
+0.1.0: Pilot</br>
 
 
