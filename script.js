@@ -13,7 +13,6 @@ const localStorageTransactions = JSON.parse(
 let transactions =
     localStorage.getItem('transactions') !== null ? localStorageTransactions : [];
 
-// Add transaction
 function addTransaction(e) {
     e.preventDefault();
 
@@ -38,22 +37,14 @@ function addTransaction(e) {
         amount.value = '';
     }
 }
-
-// Generate random ID
 function generateID() {
     return Math.floor(Math.random() * 100000000);
 }
 
-
-
-//adding transaction to DOM list
-
 function addTransactionDOM(transaction) {
-    //getting the sign
     const sign = transaction.amount < 0 ? '-' : '+'; //if less 0 then negative, else plus 
     const item = document.createElement('li');
 
-    //add class based on value
     item.classList.add(transaction.amount < 0 ? 'out' : 'in');
 
     item.innerHTML = `
