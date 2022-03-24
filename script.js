@@ -70,9 +70,9 @@ function updateValues() {
         -1
     ).toFixed(2);
 
-    balance.innerText = `${total} ₽`;
-    money_in.innerText = `${income} ₽`;
-    money_out.innerText = `${expense} ₽`;
+    balance.innerText = `${total} €`;
+    money_in.innerText = `${income} €`;
+    money_out.innerText = `${expense} €`;
 }
 
 
