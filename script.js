@@ -42,7 +42,7 @@ function generateID() {
 }
 
 function addTransactionDOM(transaction) {
-    const sign = transaction.amount < 0 ? '-' : '+'; //if less 0 then negative, else plus 
+    const sign = transaction.amount < 0 ? '-' : '+';
     const item = document.createElement('li');
 
     item.classList.add(transaction.amount < 0 ? 'out' : 'in');

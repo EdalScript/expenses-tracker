@@ -78,14 +78,11 @@ h4{
     flex: 1;
     text-align: center;
 }
-
-
 .money {
     font-size: 20px;
     letter-spacing: 1px;
     margin: 5px 0;
 }
-
 .money.in,
 .money.out,
 #balance{
@@ -108,7 +105,7 @@ input[type='number'] {
     font-size: 16px;
     padding: 10px;
     width: 100%;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
 }
 
 .btn {
