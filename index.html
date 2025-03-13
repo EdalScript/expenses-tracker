@@ -1,53 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Expenses Tracker</title>
-</head>
-
-<body>
-    <section class="card">
-        <h1 class="center">Expense Tracker</h1>
-        <div class="container">
-            <div class="inc-exp-container">
-                <h4 class="center">Your Balance</h4>
-                <h1 class="center" id="balance">0.00 €</h1>
-                <div class="inline">
-                    <div>
-                        <h4>Income</h4>
-                        <p id="money-in" class="money in">+0.00 €</p>
-                    </div>
-                    <div>
-                        <h4>Expense</h4>
-                        <p id="money-out" class="money out">-0.00 €</p>
-                    </div>
-                </div>
-            </div>
-            <h3>History</h3>
-            <ul id="list" class="list">
-            </ul>
-
-            <h3>Add new transaction</h3>
-            <form id="form">
-                <div class="form-control">
-                    <label for="text">What would you like to track?</label>
-                    <input type="text" id="text" placeholder="Example: Electricity bill">
-                </div>
-                <div class="form-control">
-                    <label for="amount">How much?<br>
-                        <span class="tooltip">If it's over 0, it will go to income. If it's below 0, it will go to
-                            expenses</span></label>
-                    <input type="number" id="amount" placeholder="Example: -100">
-                </div>
-                <button class="btn">Add transaction</button>
-            </form>
-        </div>
-    </section>
-    <script src="script.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expenses Tracker 2.0</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

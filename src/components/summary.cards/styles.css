@@ -1,0 +1,50 @@
+.summary-cards {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .summary-card {
+    flex: 1;
+    background: #fff;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .summary-card h4 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+  }
+
+  .summary-card p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: auto;
+  }
+  
+
+  .summary-card.income {
+    border-left: 5px solid #27AE60;
+  }
+
+  .summary-card.expense {
+    border-left: 5px solid #E74C3C;
+  }
+
+  .summary-card.savings {
+    border-left: 5px solid #F1C40F;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  

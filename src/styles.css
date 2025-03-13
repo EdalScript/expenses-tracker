@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+:root {
+  --primary-color: #2ECC71;
+  --secondary-color: #27AE60;
+  --light-bg: #ECF0F1;
+  --text-color: #34495E;
+  --box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  --border-radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--light-bg);
+  color: var(--text-color);
+}
+
+.flex {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem, 1rem, 0, 1rem;
+}
+
+.btn {
+  background: var(--primary-color);
+  border: none;
+  border-radius: var(--border-radius);
+  color: #fff;
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  text-align: center;
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .summary-cards {
+    flex-direction: column;
+  }
+  .charts-row {
+    flex-direction: column;
+  }
+}
